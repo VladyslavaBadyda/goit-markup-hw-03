@@ -1,0 +1,287 @@
+:root {
+/* fonts */
+--main-font:"Roboto", sans-serif;
+
+/* colors */
+--color-iris: #4D5AE5 ;
+--color-ocean: #404BBF ;
+--color-navy-blue: #2E2F42 ;
+--color-green: #31D0AA ;
+--color-slate: #434455 ;
+--color-light-slate: #8E8F99 ;
+--color-cornflower: #E7E9FC ;
+--color-cloud: #F4F4FD ;
+--color-navy-blue-modal: #2E2F42 ;
+--color-grey: #2E2F42 ;
+--color-white: #ffffff ;
+--color-dairy: #FCFCFC ;
+}
+
+//=======================BODY=========================//
+
+body{
+
+}
+
+body {
+font-family: "Roboto",sans-serif;
+color: var(--color-slate);
+background-color: var(--color-white);
+}
+
+ h1, h2, h3 {
+font-family: "Raleway", sans-serif;
+}
+
+ ul {
+list-style-type: none;
+}
+
+ a {
+text-decoration: none;
+color: currentColor;
+}
+    
+li {
+list-style-type: none;
+}
+
+.button {
+font-family: "Roboto", sans-serif ;
+border: none;
+background-color: var(--color-iris);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5 ;
+letter-spacing: 0.04em ;
+color: var(--color-white);
+cursor: pointer;
+}
+
+.button:hover,:focus{
+background-color: var(--color-ocean);
+}
+
+
+ //=======================HEADER=======================//
+
+
+.header {
+
+}
+
+.header-nav { 
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-navy-blue);
+}
+
+.header-nav-studio {
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--color-iris);
+font-family: "Raleway", sans-serif;
+}
+
+.header-nav-logo-span {
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--color-navy-blue);
+}
+
+.header-address {
+font-style: normal ;
+}
+
+.header-nav-list {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-navy-blue);
+cursor: pointer;
+}
+
+.nav-list-social:hover, :focus {
+color: var(--color-ocean);
+}
+
+.header-social-list-item {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-slate);
+}
+ 
+.header-social-list-item:hover, :focus {
+color: var(--color-ocean);
+}
+
+//=======================SECTION-1=======================//
+
+.business {
+
+}
+
+.business {
+background-color: var(--color-navy-blue);
+}
+
+.business-text {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--color-white);
+}
+
+
+//=======================SECTION-2=======================//
+
+
+.points-h2 {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--color-navy-blue);
+}
+
+.points-one {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--color-navy-blue);
+}
+
+.points-one-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-slate);
+}
+
+//=======================SECTION-3=======================//
+
+.section-team {
+
+}
+
+.section-team {
+background-color: var(--color-cloud);
+}
+
+.card {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--color-navy-blue);
+text-align: center;
+}
+
+.card-li {
+background-color: var(--color-white);
+}
+
+.card-hero {
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--color-navy-blue);
+}
+
+.card-hero-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--color-slate);
+}
+
+//=======================SECTION-4=======================//
+
+.portfolio {
+
+}
+
+.portfolio{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+color: var(--color-navy-blue);
+}
+
+.portfolio-h {
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--color-navy-blue);
+}
+
+.portfolio-h-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-slate);
+}
+
+//==================FOOTER=====================//
+
+.footer {
+
+}
+
+.footer {
+background-color: var(--color-navy-blue);
+font-family: "Raleway",sans-serif;
+}
+
+.footer-nav-studio {
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--color-iris);
+}
+
+.footer-nav-logo-span {
+font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-cloud);
+}
+
+.footer-text {
+line-height: 1.5; 
+color: var(--color-cloud);
+letter-spacing: 0.02em;
+}
+
+
+
+
+
+
