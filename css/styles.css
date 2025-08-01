@@ -21,8 +21,6 @@ img {
 display: block;
 }
 
-.container {}
-
 .container {
 max-width: ;
 padding-left: ;
@@ -90,10 +88,10 @@ background-color: var(--color-ocean);
 
 
 .header {
-padding: 24px 0;
+padding: 0 15px;
 width: 1158px;
 border-bottom: var(--color-cornflower);
-
+margin: 0 auto;
 }
 
 .header-nav { 
@@ -103,8 +101,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-navy-blue);
 display: flex;
+align-items: center;
 }
-
 
 
 .header-nav-studio {
@@ -115,6 +113,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--color-iris);
 font-family: "Raleway", sans-serif;
+margin-right: 76px;
 }
 
 
@@ -125,6 +124,13 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--color-navy-blue);
+}
+
+.nav-list-social-a {
+display: flex;
+gap: 40px;
+padding: 24px;
+
 }
 
 .header-address {
@@ -150,6 +156,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-slate);
+display: flex;
+gap: 40px;
 }
 
 .header-social-list-item:hover, :focus {
