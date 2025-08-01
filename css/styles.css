@@ -17,6 +17,26 @@
 --color-dairy: #FCFCFC ;
 }
 
+img {
+display: block;
+}
+
+.container {}
+
+.container {
+max-width: ;
+padding-left: ;
+padding-right: ;
+margin-left: ;
+margin-right: ;
+}
+
+.container {
+width: 1440px;
+padding-right: 0px;
+padding-left: 0px;
+}
+
 //============================BODY====================================//
 
 body{
@@ -65,8 +85,14 @@ background-color: var(--color-ocean);
 
  //==============================HEADER===============================//
 
+.header {
+}
+
 
 .header {
+padding: 24px 0;
+width: 1158px;
+border-bottom: var(--color-cornflower);
 
 }
 
@@ -76,7 +102,10 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-navy-blue);
+display: flex;
 }
+
+
 
 .header-nav-studio {
 font-weight: 700;
@@ -87,6 +116,7 @@ text-transform: uppercase;
 color: var(--color-iris);
 font-family: "Raleway", sans-serif;
 }
+
 
 .header-nav-logo-span {
 font-weight: 700;
@@ -121,7 +151,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-slate);
 }
- 
+
 .header-social-list-item:hover, :focus {
 color: var(--color-ocean);
 }
@@ -270,11 +300,11 @@ color: var(--color-iris);
 
 .footer-nav-logo-span {
 font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--color-cloud);
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--color-cloud);
 }
 
 .footer-text {
@@ -282,26 +312,6 @@ line-height: 1.5;
 color: var(--color-cloud);
 letter-spacing: 0.02em;
 }
-
-//===========================HOMEWORK3==============================//
-
-.container {
-}
-
-.container {
-max-width: ;
-padding-left: ;
-padding-right: ;
-margin-left: ;
-margin-right: ;
-}
-
-.container {
-width: 1440px;
-padding-right: 0px;
-padding-left: 0px;
-}
-
 
 
 
