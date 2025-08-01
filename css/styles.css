@@ -17,7 +17,7 @@
 --color-dairy: #FCFCFC ;
 }
 
-//=======================BODY=========================//
+//============================BODY====================================//
 
 body{
 
@@ -63,7 +63,7 @@ background-color: var(--color-ocean);
 }
 
 
- //=======================HEADER=======================//
+ //==============================HEADER===============================//
 
 
 .header {
@@ -126,10 +126,14 @@ color: var(--color-slate);
 color: var(--color-ocean);
 }
 
-//=======================SECTION-1=======================//
+//=============================SECTION-1=============================//
 
 .business {
 
+}
+
+.business {
+margin-bottom: 48px;
 }
 
 .business {
@@ -146,7 +150,7 @@ color: var(--color-white);
 }
 
 
-//=======================SECTION-2=======================//
+//===========================SECTION-2==============================//
 
 
 .points-h2 {
@@ -173,7 +177,7 @@ letter-spacing: 0.02em;
 color: var(--color-slate);
 }
 
-//=======================SECTION-3=======================//
+//===========================SECTION-3===============================//
 
 .section-team {
 
@@ -213,8 +217,7 @@ letter-spacing: 0.02em;
 color: var(--color-slate);
 }
 
-//=======================SECTION-4=======================//
-
+//==============================SECTION-4===========================//
 .portfolio {
 
 }
@@ -245,7 +248,7 @@ letter-spacing: 0.02em;
 color: var(--color-slate);
 }
 
-//==================FOOTER=====================//
+//==============================FOOTER===============================//
 
 .footer {
 
@@ -279,6 +282,35 @@ line-height: 1.5;
 color: var(--color-cloud);
 letter-spacing: 0.02em;
 }
+
+//===========================HOMEWORK3==============================//
+
+.container {
+}
+
+.container {
+max-width: ;
+padding-left: ;
+padding-right: ;
+margin-left: ;
+margin-right: ;
+}
+
+.container {
+width: 1440px;
+padding-right: 0px;
+padding-left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
