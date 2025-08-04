@@ -20,34 +20,34 @@
     <!--body-->
 
 <body>
-    <div class="container">
         <header class="header">
-                    <nav class="header-nav">
-                        <a href="./index.html" class="header-nav-studio">Web<span class="header-nav-logo-span">Studio</span></a> 
-                        <ul class="header-nav-list">
-                            <li class="nav-list-social">
-                                <a href="./index.html" class="nav-list-social-a" >Studio</a>
-                            </li>
-                            <li class="nav-list-social">
-                                <a href="" class="nav-list-social-a">Portfolio</a>
-                            </li>
-                            <li class="nav-list-social">
-                                <a href="" class="nav-list-social-a">Contacts</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <address class="header-address">
-                        <ul class="header-social-list">
-                            <li class="header-social-list-item">
-                                <a href="mailto:info@devstudio.com" class="nav-list-social-a">info@devstudio.com</a>
-                            </li>
-                            <li class="header-social-list-item">
-                                <a href="tel:+110001111111" class="nav-list-social-a">+11 (000) 111-11-11</a>
-                            </li>
-                        </ul>
-                    </address>
+                    <div class="container">
+                        <nav class="header-nav">
+                            <a href="./index.html" class="header-nav-studio">Web<span class="header-nav-logo-span">Studio</span></a> 
+                            <ul class="header-nav-list">
+                                <li class="nav-list-social">
+                                    <a href="./index.html" class="nav-list-social-a" >Studio</a>
+                                </li>
+                                <li class="nav-list-social">
+                                    <a href="" class="nav-list-social-a">Portfolio</a>
+                                </li>
+                                <li class="nav-list-social">
+                                    <a href="" class="nav-list-social-a">Contacts</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <address class="header-address">
+                            <ul class="header-social-list">
+                                <li class="header-social-list-item">
+                                    <a href="mailto:info@devstudio.com" class="nav-list-social-a">info@devstudio.com</a>
+                                </li>
+                                <li class="header-social-list-item">
+                                    <a href="tel:+110001111111" class="nav-list-social-a">+11 (000) 111-11-11</a>
+                                </li>
+                            </ul>
+                        </address>
+                    </div>
         </header>
-    </div>
     <main>
 
         <!--section1-->
@@ -68,27 +68,27 @@
                     #
                 </h2>
                 <ul class="ulka2section">
-                    <li>
+                    <li class="points-li">
                         <h3 class="points-one">Strategy</h3>
                         <p class="points-one-text">
                             Our goal is to identify the business problem to walk away with the perfect and creative
                             solution.
                         </p>
                     </li>
-                    <li>
+                    <li class="points-li">
                         <h3 class="points-one">Punctuality</h3>
                         <p class="points-one-text">
                             Bring the key message to the brand's audience for the best price within the shortest possible
                             time.
                         </p>
                     </li>
-                    <li>
+                    <li class="points-li">
                         <h3 class="points-one">Diligence</h3>
                         <p class="points-one-text">
                             Research and confirm brands with the strongest digital growth opportunities and minimize risk.
                         </p>
                     </li>
-                    <li>
+                    <li class="points-li">
                         <h3 class="points-one">Technologies</h3>
                         <p class="points-one-text">
                             Design practice focused on digital experiences. We bring forth a deep passion for
@@ -106,24 +106,32 @@
                 <h2 class="card">Our Team</h2>
                 <ul class="card-foto">
                     <li class="card-li">
-                        <div class=""><img src="./images/1.jpg" alt="Mark Guerrero" width="264"></div>
-                        <h3 class="card-hero">Mark Guerrero</h3>
-                        <p class="card-hero-text">Product Designer</p>
+                        <img src="./images/1.jpg" alt="Mark Guerrero" width="264">
+                        <div class="card-hero-position">
+                            <h3 class="card-hero">Mark Guerrero</h3>
+                            <p class="card-hero-text">Product Designer</p>
+                        </div>
                     </li>
                     <li class="card-li">
                         <img src="./images/2.jpg" alt="Tom Ford" width="264">
-                        <h3 class="card-hero">Tom Ford</h3>
-                        <p class="card-hero-text">Frontend Developer</p>
+                        <div class="card-hero-position">
+                            <h3 class="card-hero">Tom Ford</h3>
+                            <p class="card-hero-text">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="card-li">
                         <img src="./images/3.jpg" alt="Camila Garcia" width="264">
-                        <h3 class="card-hero">Camila Garcia</h3>
-                        <p class="card-hero-text">Marketing</p>
+                        <div class="card-hero-position">
+                            <h3 class="card-hero">Camila Garcia</h3>
+                            <p class="card-hero-text">Marketing</p>
+                        </div>
                     </li>
                     <li class="card-li">
                         <img src="./images/4.jpg" alt="Daniel Wilson" width="264">
-                        <h3 class="card-hero">Daniel Wilson</h3>
-                        <p class="card-hero-text">UI Designer</p>
+                        <div class="card-hero-position">
+                            <h3 class="card-hero">Daniel Wilson</h3>
+                            <p class="card-hero-text">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -131,39 +139,51 @@
 
         <!--section4-->
         
-        <section>
+        <section class="section-app">
             <div class="container">
                 <h2 class="portfolio">Our Portfolio</h2>
                 <ul class="portfolio-foto">
                 <li class="portfolio-li">
                     <img src="./images/banking.jpg" alt="Banking App" width="360">
-                    <h3 class="portfolio-h">Banking App</h3>
-                    <p class="portfolio-h-text">App</p>
+                    <div class="portfolio-app">
+                        <h3 class="portfolio-h">Banking App</h3>
+                        <p class="portfolio-h-text">App</p>
+                    </div>
                 </li>
                 <li class="portfolio-li">
                     <img src="./images/payment.jpg" alt="Cashless Payment" width="360">
-                    <h3 class="portfolio-h">Cashless Payment</h3>
-                    <p class="portfolio-h-text">Marketing</p>
+                    <div class="portfolio-app">
+                        <h3 class="portfolio-h">Cashless Payment</h3>
+                        <p class="portfolio-h-text">Marketing</p>
+                    </div>
                 </li>
                 <li class="portfolio-li">
                     <img src="./images/app.jpg" alt="Meditation App" width="360">
-                    <h3 class="portfolio-h">Meditation App</h3>
-                    <p class="portfolio-h-text">App</p>
+                    <div class="portfolio-app">
+                        <h3 class="portfolio-h">Meditation App</h3>
+                        <p class="portfolio-h-text">App</p>
+                    </div>
                 </li>
                 <li class="portfolio-li">
                     <img src="./images/taxi.jpg" alt="Taxi Service" width="360">
-                    <h3 class="portfolio-h">Taxi Service</h3>
-                    <p class="portfolio-h-text">Marketing</p>
+                    <div class="portfolio-app">
+                        <h3 class="portfolio-h">Taxi Service</h3>
+                        <p class="portfolio-h-text">Marketing</p>
+                    </div>
                 </li>
                 <li class="portfolio-li">
                     <img src="./images/screen.jpg" alt="Screen Illustrations" width="360">
-                    <h3 class="portfolio-h">Screen Illustrations</h3>
-                    <p class="portfolio-h-text">Design</p>
+                    <div class="portfolio-app">
+                        <h3 class="portfolio-h">Screen Illustrations</h3>
+                        <p class="portfolio-h-text">Design</p>
+                    </div>
                 </li>
                 <li class="portfolio-li">
                     <img src="./images/online.jpg" alt="Online Courses" width="360">
-                    <h3 class="portfolio-h">Online Courses</h3>
-                    <p class="portfolio-h-text">Marketing</p>
+                    <div class="portfolio-app">
+                        <h3 class="portfolio-h">Online Courses</h3>
+                        <p class="portfolio-h-text">Marketing</p>
+                    </div>
                 </li>
                 </ul>
             </div>
