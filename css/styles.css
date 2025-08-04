@@ -19,20 +19,15 @@
 
 img {
 display: block;
-}
-
-.container {
-max-width: ;
-padding-left: ;
-padding-right: ;
-margin-left: ;
-margin-right: ;
+height: auto;
+max-width: 100%;
 }
 
 .container {
 width: 1440px;
-padding-right: 0px;
-padding-left: 0px;
+margin: 0 auto;
+padding: 0 15px;
+max-width: 100%;
 }
 
 //============================BODY====================================//
@@ -51,8 +46,10 @@ background-color: var(--color-white);
 font-family: sans-serif;
 }
 
- ul {
+ ul,ol {
 list-style-type: none;
+margin: 0;
+padding: 0;
 }
 
  a {
@@ -74,7 +71,13 @@ line-height: 1.5 ;
 letter-spacing: 0.04em ;
 color: var(--color-white);
 cursor: pointer;
+display: block;
+min-width: 169px;
+height: 56px;
+border-radius: 4px;
+margin: 0px auto;
 }
+
 
 .button:hover,:focus{
 background-color: var(--color-ocean);
@@ -83,15 +86,12 @@ background-color: var(--color-ocean);
 
  //==============================HEADER===============================//
 
-.header {
-}
-
+.header { }
 
 .header {
-padding: 0 15px;
-width: 1158px;
 border-bottom: var(--color-cornflower);
-margin: 0 auto;
+width: 1440px;
+height: 72px;
 }
 
 .header-nav { 
@@ -100,10 +100,11 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-navy-blue);
-display: flex;
-align-items: center;
 }
 
+.nav-list-social-a {
+
+}
 
 .header-nav-studio {
 font-weight: 700;
@@ -113,7 +114,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--color-iris);
 font-family: "Raleway", sans-serif;
-margin-right: 76px;
 }
 
 
@@ -126,12 +126,6 @@ text-transform: uppercase;
 color: var(--color-navy-blue);
 }
 
-.nav-list-social-a {
-display: flex;
-gap: 40px;
-padding: 24px;
-
-}
 
 .header-address {
 font-style: normal ;
@@ -144,6 +138,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-navy-blue);
 cursor: pointer;
+display: flex;
 }
 
 .nav-list-social:hover, :focus {
@@ -156,8 +151,6 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-slate);
-display: flex;
-gap: 40px;
 }
 
 .header-social-list-item:hover, :focus {
@@ -165,13 +158,13 @@ color: var(--color-ocean);
 }
 
 //=============================SECTION-1=============================//
-
 .business {
-
 }
 
 .business {
-margin-bottom: 48px;
+width: 1440px;
+height: 600px;
+padding: 188px 0;
 }
 
 .business {
@@ -179,24 +172,38 @@ background-color: var(--color-navy-blue);
 }
 
 .business-text {
+max-width: 496px;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: var(--color-white);
+margin: 0px auto 48px auto;
 }
 
 
 //===========================SECTION-2==============================//
+.points {}
 
 
-.points-h2 {
+.points {
+padding: 120px 0;
+margin-bottom: 8px;
+}
+
+.ulka2section {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--color-navy-blue);
+}
+
+.ulka2section {
+display: flex;
+gap: 24px;
+padding: 120px 0;
 }
 
 .points-one {
@@ -215,10 +222,23 @@ letter-spacing: 0.02em;
 color: var(--color-slate);
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
 //===========================SECTION-3===============================//
 
 .section-team {
-
 }
 
 .section-team {
@@ -233,10 +253,18 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--color-navy-blue);
 text-align: center;
+list-style: none;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 72px;
 }
 
 .card-li {
 background-color: var(--color-white);
+list-style: none;
+text-align: center;
+border-radius: 0 0 4px 4px;
+width: calc((100% - 72px) / 4);
 }
 
 .card-hero {
@@ -253,6 +281,13 @@ font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
 color: var(--color-slate);
+}
+
+.card-foto {
+display: flex;
+gap: 24px;
+flex-wrap: wrap;
+padding-left: 0;
 }
 
 //==============================SECTION-4===========================//
@@ -284,6 +319,17 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-slate);
+}
+
+.portfolio-foto {
+display: flex;
+gap: 24px;
+flex-wrap: wrap;
+padding-left: 0;
+}
+
+.portfolio-li {
+
 }
 
 //==============================FOOTER===============================//
@@ -322,6 +368,9 @@ letter-spacing: 0.02em;
 }
 
 
+
+
+======================домашка 3=======================
 
 
 
