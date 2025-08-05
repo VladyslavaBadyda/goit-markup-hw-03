@@ -84,8 +84,12 @@ background-color: var(--color-ocean);
 
 
  //==============================HEADER===============================//
-
 .header { }
+
+.container-header {
+display: flex;
+width: 1158px;
+}
 
 .header {
 width: 1440px;
@@ -100,10 +104,11 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-navy-blue);
 display: flex;
+align-items: center;
 }
 
 .nav-list-social-a {
-
+padding: 24px 0;
 }
 
 .header-nav-studio {
@@ -114,6 +119,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--color-iris);
 font-family: "Raleway", sans-serif;
+margin-right: 76px;
 }
 
 
@@ -333,10 +339,13 @@ margin-bottom: 72px;
 }
 
 .portfolio-li {
-row-gap: 48px;
 width: calc((100% - 48px) / 3);
 }
-
+--------------
+.portfolio-li:last-child {
+margin-right: 0;
+}
+--------------------
 .portfolio-app {
 padding: 32px 16px;
 border: 1px solid var(--color-cornflower);
@@ -366,6 +375,7 @@ display: flex;
 gap: 24px;
 flex-wrap: wrap;
 padding-left: 0;
+row-gap: 48px;
 }
 
 //==============================FOOTER===============================//
