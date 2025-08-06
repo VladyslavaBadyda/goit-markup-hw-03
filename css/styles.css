@@ -29,6 +29,12 @@ margin: 0 auto;
 padding: 0 15px;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 //============================BODY====================================//
 
 body{
@@ -38,8 +44,6 @@ body {
 font-family: "Roboto",sans-serif;
 color: var(--color-slate);
 background-color: var(--color-white);
-margin: 0;
-padding: 0;
 }
 
 ul,ol {
