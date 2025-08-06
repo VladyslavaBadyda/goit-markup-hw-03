@@ -204,6 +204,7 @@ padding: 120px 0;
 width: calc((100% - 72px) / 4);
 }
 
+
 .ulkatwosection {
 color: var(--color-navy-blue);
 display: flex;
@@ -217,7 +218,6 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--color-navy-blue);
 margin-bottom: 8px;
-margin: 0;
 padding: 0;
 }
 
